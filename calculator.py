@@ -16,4 +16,4 @@ def calculator(number1, number2, operator):
 def parse_input():
 	equation = input("Enter equation")
 	list = equation.split( )
-	print(calculator(float(list[0]), float(list[2], list[1]))
+	print(calculator(float(list[0]), float(list[2]), list[1]))
